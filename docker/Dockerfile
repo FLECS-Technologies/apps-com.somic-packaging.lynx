@@ -2,7 +2,7 @@ ARG ARCH
 ARG VERSION
 ARG VARIANT
 
-FROM ghcr.io/rushwantatsomic/format-rfidparts:${VERSION}
+FROM ghcr.io/somic-reserach-development-software/lynx:${VERSION}
 
 ARG ARCH
 ARG VERSION
