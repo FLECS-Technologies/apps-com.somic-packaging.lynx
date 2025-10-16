@@ -2,7 +2,7 @@ ARG ARCH
 ARG VERSION
 ARG VARIANT
 
-FROM scratch:${VERSION}
+FROM ghcr.io/rushwantatsomic/format-rfidparts:${VERSION}
 
 ARG ARCH
 ARG VERSION
