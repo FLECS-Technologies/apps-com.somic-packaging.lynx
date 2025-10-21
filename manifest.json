@@ -9,12 +9,13 @@
     "editors": [
         {
             "name": "Somic Lynx",
-            "port": 4400,
+            "port": 80,
             "supportsReverseProxy": false
         }
     ],
     "ports": [
-        "4400:443"
+        "4400:443",
+        "4444:80"
     ],
     "volumes": [
         "/home/somic/app/lynx:/app/data"
