@@ -19,5 +19,8 @@
     ],
     "volumes": [
         "/home/somic/app/lynx:/app/data"
+    ],
+    "env": [
+        "LIVE_EVENT_RETENTION_SEC=10"
     ]
 }
